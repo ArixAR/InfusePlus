@@ -71,7 +71,7 @@ jobs:
       - name: Download Infuse Plus
         id: download_infp
         run: |
-          deb_url="https://github.com/dayanch96/InfusePlus/releases/download/v${{ inputs.tweak_version }}/com.dvntm.infuseplus_${{ inputs.tweak_version }}_iphoneos-arm.deb"
+          deb_url="https://github.com/ArixAR/InfusePlus/releases/download/1.0/InfusePlus.deb"
           wget "$deb_url" --no-verbose -O ${{ github.workspace }}/infplus.deb
 
       - name: Download Infuse
